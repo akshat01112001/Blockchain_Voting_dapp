@@ -35,28 +35,34 @@ The backend links the solidity code with the front end in HTML/CSS
 
 <img width="877" alt="brave_iVqvfvTySA" src="https://user-images.githubusercontent.com/76171905/206510092-e9991d5c-867b-4456-b695-dba0aa702d1d.png">
 
-Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+## Dependencies
+Install these prerequisites 
+- NPM: https://nodejs.org
+- Truffle: https://github.com/trufflesuite/truffle
+- Ganache: http://truffleframework.com/ganache/
+- Metamask: https://metamask.io/
 
-NPM: https://nodejs.org
-Truffle: https://github.com/trufflesuite/truffle
-Ganache: http://truffleframework.com/ganache/
-Metamask: https://metamask.io/
-Step 1. Clone the project
-git clone https://github.com/dappuniversity/election
 
-Step 2. Install dependencies
+## Step 1. Clone the project
+
+## Step 2. Install dependencies
+```
 $ cd election
 $ npm install
-Step 3. Start Ganache
+```
+## Step 3. Start Ganache
 Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance.
 
-Step 4. Compile & Deploy Election Smart Contract
-$ truffle migrate --reset You must migrate the election smart contract each time your restart ganache.
+## Step 4. Compile & Deploy Election Smart Contract
+`$ truffle migrate --reset`
+You must migrate the election smart contract each time your restart ganache.
 
-Unlock Metamask
-Connect metamask to your local Etherum blockchain provided by Ganache.
-Import an account provided by ganache.
-Step 6. Run the Front End Application
-$ npm run dev Visit this URL in your browser: http://localhost:3000
+## Step 5. Configure Metamask
+- Unlock Metamask
+- Connect metamask to your local Etherum blockchain provided by Ganache.
+- Import an account provided by ganache.
+
+## Step 6. Run the Front End Application
+`$ npm run dev`
+Visit this URL in your browser: http://localhost:3000
 
