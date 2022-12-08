@@ -1,0 +1,35 @@
+# Blockchain_Voting_dapp
+
+Current voting systems like ballot box voting or electronic voting suffer from 
+various security threats such as DDoS attacks, polling booth capturing, 
+vote alteration and manipulation, malware attacks, etc, and also require 
+huge amounts of paperwork, human resources, and time. This creates a 
+sense of distrust among existing systems.
+
+In this decentralized application we create a mechanism for e-voting based 
+on Blockchain. The website works as follows. At first an election is created 
+by the admin. Then the admin adds candidates by taking their inputs. This
+list can then be viewed by clicking on the view candidates button.
+
+
+<img width="710" alt="brave_RE0yFX6olO" src="https://user-images.githubusercontent.com/76171905/206509680-1e81910e-2ac4-407a-a39d-0373cb4b121e.png">
+
+
+
+After that the user registers the voters by taking their inputs. This list can 
+also be viewed.
+Adding both these bunch of data on the Blockchain will cost some gas and 
+the same will be paid by the admin account from Ganache.
+After taking data about both the candidate and the voter, the admin can 
+then begin the voting process
+
+
+Each voter is linked with one account from Ganache and provisions have 
+been made to make sure that only one vote can be casted from one 
+account.
+After all accounts have casted their votes, the admin then closes the 
+election and declares the result, which is displayed in order of their votes.
+In the solidity code, there are two structs, one for candidates and one for 
+voters.
+Then there is mapping for candidates and voters. 
+The backend links the solidity code with the front end in HTML/CSS 
