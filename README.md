@@ -11,9 +11,7 @@ on Blockchain. The website works as follows. At first an election is created
 by the admin. Then the admin adds candidates by taking their inputs. This
 list can then be viewed by clicking on the view candidates button.
 
-
-<img width="710" alt="brave_RE0yFX6olO" src="https://user-images.githubusercontent.com/76171905/206509680-1e81910e-2ac4-407a-a39d-0373cb4b121e.png">
-
+![ox52tih](https://user-images.githubusercontent.com/76171905/206509868-dfce7fe7-6f88-44d1-9309-3ca2484aabe2.png)
 
 
 After that the user registers the voters by taking their inputs. This list can 
@@ -23,6 +21,7 @@ the same will be paid by the admin account from Ganache.
 After taking data about both the candidate and the voter, the admin can 
 then begin the voting process
 
+<img width="710" alt="brave_RE0yFX6olO" src="https://user-images.githubusercontent.com/76171905/206509680-1e81910e-2ac4-407a-a39d-0373cb4b121e.png">
 
 Each voter is linked with one account from Ganache and provisions have 
 been made to make sure that only one vote can be casted from one 
@@ -33,3 +32,6 @@ In the solidity code, there are two structs, one for candidates and one for
 voters.
 Then there is mapping for candidates and voters. 
 The backend links the solidity code with the front end in HTML/CSS 
+
+<img width="877" alt="brave_iVqvfvTySA" src="https://user-images.githubusercontent.com/76171905/206510092-e9991d5c-867b-4456-b695-dba0aa702d1d.png">
+
